@@ -82,7 +82,7 @@ http://127.0.0.1:8000/dashboard
 
 ## Help
 
-### Tracking-API nicht erreichbar
+#### Tracking-API nicht erreichbar
 
 Diese Meldung erscheint, wenn das Dashboard im Browser geöffnet ist, aber das Backend nicht erreichbar ist.
 
@@ -102,12 +102,10 @@ python -m pip install -r requirements.txt
 
 ## Authors
 
-Jelena Koc
+Jelena Kocic
 
 ## Version History
 
 - 0.1
-  - Initial Release
-  - Grundfunktion für Zeiterfassung, Projektzuordnung und Dashboard
 
 
