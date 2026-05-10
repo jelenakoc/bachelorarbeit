@@ -1,4 +1,4 @@
-#Automatische Zeiterfassung
+# Automatische Zeiterfassung
 
 Lokales Zeiterfassungstool zur automatischen Erfassung und Auswertung von Arbeitszeiten nach Projekt und Aufgabe.
 
