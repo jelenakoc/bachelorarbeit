@@ -1,10 +1,10 @@
-# Zeiterfassung
+#Automatische Zeiterfassung
 
 Lokales Zeiterfassungstool zur automatischen Erfassung und Auswertung von Arbeitszeiten nach Projekt und Aufgabe.
 
 ## Description
 
-Diese Anwendung wurde entwickelt, um Arbeitszeiten lokal auf einem Windows-Rechner zu erfassen. Der Tracker erkennt aktive Fenster und Anwendungen, ordnet Zeitbloecke anhand von Keywords Projekten zu und fragt bei unsicherer Zuordnung per Popup nach. Im Browser-Dashboard koennen Projekte, Aufgaben, Zeitbloecke und Auswertungen eingesehen werden. Die Anwendung eignet sich besonders fuer projektbasierte Arbeit, z. B. Webdesign, Softwareentwicklung oder Kundenprojekte.
+Diese Anwendung wurde entwickelt, um Arbeitszeiten lokal zu erfassen. Der Tracker erkennt aktive Fenster und Anwendungen und fragt mich einem Popup nach dem zugehörigen Projekt bzw. zugehörigen Aufgabe. Im Browser-Dashboard können Projekte, Aufgaben, Zeitblöcke und Auswertungen eingesehen werden. Die Anwendung eignet sich besonders für projektbasierte Arbeit.
 
 ## Getting Started
 
@@ -15,14 +15,14 @@ Getestete Umgebung:
 - Windows 10 / Windows 11
 - moderner Browser, z. B. Microsoft Edge, Chrome oder Firefox
 
-Für die Ausfuehrung aus dem Quellcode werden benoetigt:
+Für die Ausführung aus dem Quellcode werden benötigt:
 
 - Python 3
 - pip
-- Abhaengigkeiten aus `requirements.txt`
+- Abhängigkeiten aus `requirements.txt`
 - optional: virtuelle Python-Umgebung `.venv`
 
-Die benoetigten Python-Pakete sind:
+Die benötigten Python-Pakete sind:
 
 ```text
 fastapi
@@ -53,7 +53,7 @@ Virtuelle Umgebung aktivieren:
 .venv\Scripts\activate
 ```
 
-Abhaengigkeiten installieren:
+Abhängigkeiten installieren:
 
 ```bat
 python -m pip install -r requirements.txt
@@ -69,12 +69,12 @@ python run_dashboard.py
 
 Danach:
 
-1. Browser oeffnen.
+1. Browser öffnen.
 2. `http://127.0.0.1:8000/dashboard` aufrufen.
 3. Im Dashboard auf `Tracking einschalten` klicken.
 4. Bei Bedarf im Popup Projekt und Aufgabe zuordnen.
 
-Das Dashboard laeuft lokal unter:
+Das Dashboard läuft lokal unter:
 
 ```text
 http://127.0.0.1:8000/dashboard
@@ -84,7 +84,7 @@ http://127.0.0.1:8000/dashboard
 
 ### Tracking-API nicht erreichbar
 
-Diese Meldung erscheint, wenn das Dashboard im Browser geoeffnet ist, aber das Backend nicht erreichbar ist.
+Diese Meldung erscheint, wenn das Dashboard im Browser geöffnet ist, aber das Backend nicht erreichbar ist.
 
 Mögliche Lösungen:
 
