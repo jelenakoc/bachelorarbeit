@@ -15,7 +15,7 @@ Getestete Umgebung:
 - Windows 10 / Windows 11
 - moderner Browser, z. B. Microsoft Edge, Chrome oder Firefox
 
-Fuer die Ausfuehrung aus dem Quellcode werden benoetigt:
+Für die Ausfuehrung aus dem Quellcode werden benoetigt:
 
 - Python 3
 - pip
@@ -32,15 +32,13 @@ psutil
 pywin32
 ```
 
-Zum Bauen einer portablen Windows-Version wird zusaetzlich PyInstaller benoetigt.
-
 ### Installing
 
 Repository herunterladen oder klonen:
 
 ```bat
-git clone <REPOSITORY-URL>
-cd ba-zeiterfassung
+git clone https://github.com/jelenakoc/bachelorarbeit2026.git
+cd bachelorarbeit2026
 ```
 
 Virtuelle Umgebung erstellen:
@@ -82,25 +80,13 @@ Das Dashboard laeuft lokal unter:
 http://127.0.0.1:8000/dashboard
 ```
 
-Optionale portable Windows-Version bauen:
-
-```bat
-build_portable.bat
-```
-
-Das Ergebnis liegt danach unter:
-
-```text
-dist_portable\Zeiterfassung
-```
-
 ## Help
 
 ### Tracking-API nicht erreichbar
 
 Diese Meldung erscheint, wenn das Dashboard im Browser geoeffnet ist, aber das Backend nicht erreichbar ist.
 
-Moegliche Loesungen:
+Mögliche Lösungen:
 
 1. Browserfenster schliessen.
 2. Im Task-Manager alte Prozesse wie `Dashboard.exe`, `Tracker.exe` oder passende `python.exe` beenden.
@@ -108,19 +94,11 @@ Moegliche Loesungen:
 
 ### Tracking einschalten macht nichts
 
-Bei Ausfuehrung aus dem Quellcode pruefen, ob alle Abhaengigkeiten installiert sind:
+Bei Ausführung aus dem Quellcode prüfen, ob alle Abhängigkeiten installiert sind:
 
 ```bat
 python -m pip install -r requirements.txt
 ```
-
-Bei der portablen Version pruefen, ob diese Datei vorhanden ist:
-
-```text
-Tracker\Tracker.exe
-```
-
-Wenn diese Datei fehlt, wurde der portable Ordner unvollstaendig erstellt oder kopiert.
 
 ## Authors
 
@@ -128,23 +106,8 @@ Jelena Koc
 
 ## Version History
 
-- 0.2
-  - portable Windows-Version
-  - Dashboard mit Auswertungen und CSV-Export
-  - manuelle Projekt- und Aufgaben-Zuordnung per Popup
-  - Verbesserungen beim Tracking-Start und bei der Projektverwaltung
-
 - 0.1
   - Initial Release
-  - Grundfunktion fuer Zeiterfassung, Projektzuordnung und Dashboard
+  - Grundfunktion für Zeiterfassung, Projektzuordnung und Dashboard
 
-## License
 
-Dieses Projekt wurde im Rahmen einer Bachelorarbeit erstellt. Eine separate Lizenzdatei ist aktuell nicht enthalten.
-
-## Acknowledgments
-
-- FastAPI
-- SQLAlchemy
-- PyInstaller
-- Chart.js
