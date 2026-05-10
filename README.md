@@ -4,7 +4,7 @@ Lokales Zeiterfassungstool zur automatischen Erfassung und Auswertung von Arbeit
 
 ## Description
 
-Diese Anwendung wurde entwickelt, um Arbeitszeiten lokal zu erfassen. Der Tracker erkennt aktive Fenster und Anwendungen und fragt mich einem Popup nach dem zugehörigen Projekt bzw. zugehörigen Aufgabe. Im Browser-Dashboard können Projekte, Aufgaben, Zeitblöcke und Auswertungen eingesehen werden. Die Anwendung eignet sich besonders für projektbasierte Arbeit.
+Diese Anwendung wurde entwickelt, um Arbeitszeiten lokal zu erfassen. Der Tracker erkennt dabei aktive Fenster und Anwendungen automatisch und ermöglicht über ein Popup die Zuordnung zu einem entsprechenden Projekt sowie einer zugehörigen Aufgabe. Im Browser-Dashboard können Projekte, Aufgaben, Zeitblöcke und Auswertungen eingesehen werden. Die Anwendung eignet sich besonders für projektbasierte Arbeit.
 
 ## Getting Started
 
