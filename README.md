@@ -92,7 +92,7 @@ Mögliche Lösungen:
 2. Im Task-Manager alte Prozesse wie `Dashboard.exe`, `Tracker.exe` oder passende `python.exe` beenden.
 3. Danach `python run_dashboard.py` erneut starten.
 
-### Tracking einschalten macht nichts
+#### Tracking einschalten macht nichts
 
 Bei Ausführung aus dem Quellcode prüfen, ob alle Abhängigkeiten installiert sind:
 
